@@ -1,3 +1,5 @@
 Assari_classification__remBG.pt filter=lfs diff=lfs merge=lfs -text
 Asari_images.zip filter=lfs diff=lfs merge=lfs -text
 Assari_classification_remBG.pt filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
