@@ -11,4 +11,4 @@ Resnet18 事前学習したモデルをファインチューニング
 テストデータに対して97%の正解率だったが、アサリの購入時期や撮像時の光の反射の影響など改善すべき点はあり本当に判別できているのか疑問は残る。
 
 ### streamlitとrenderでモデルをデプロイ
-リンク[https://asariclassification-ra9zfkljjvrfpyi3hhqrwx.streamlit.app/]
+[リンク](https://asariclassification-ra9zfkljjvrfpyi3hhqrwx.streamlit.app/)
