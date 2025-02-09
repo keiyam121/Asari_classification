@@ -48,7 +48,7 @@ class Net(pl.LightningModule):
         return h
 
 net = Net().cpu().eval()
-net.load_state_dict(torch.load('Assari_classification_remBG.pt', map_location=torch.device('cpu'),weights_only=False),strict=False)
+net.load_state_dict(torch.load('Asari_classification_weights.pt', map_location=torch.device('cpu'),weights_only=False),strict=False)
 @app.post('/predict')
 async def make_predictions(file: UploadFile = File(...)):
     contents=await file.read()
