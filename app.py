@@ -22,7 +22,7 @@ if uploaded_image is not None:
 
     # 予測の実行
     if st.button("Predict", key="predict_button"):
-        response = requests.post("https://asari-classification.onrender.com/predict", files={'file': uploaded_image.getvalue()})
+        response = requests.post("https://asari-classification-1.onrender.com/predict", files={'file': uploaded_image.getvalue()})
         result=response.json()
         prediction = result["prediction"]
         probability = result["probability"]
